@@ -2,12 +2,11 @@
 <html lang="ru">
 <head>
     {% include header.html %}
-    <link href="{{ BASE_PATH }}/inner_page.css" rel="stylesheet">
 </head>
 
 <body>
 {% include main_menu.html %}
-<header class="splash">
+<header>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
@@ -16,15 +15,15 @@
                 </a>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                <h2><i class="fa fa-mortar-board"></i> Battery Yoga</h2>
+                <h2><i class="fa fa-plug"></i> Battery Yoga</h2>
                 <h1>Групповые и индивидуацльные занятия йогой.</h1>
             </div>
         </div>
     </div>
 </header>
-<content class="container">
+<div class="container">
     {{ content }}
-</content>
+</div>
 {% include metrika.html %}
 {% include modal_contacts.html %}
 {% include footer.html %}

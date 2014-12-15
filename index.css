@@ -1,0 +1,27 @@
+body{
+    background: transparent url("images/header_bg") repeat-x 0px 50px;
+    font-family: 'Forum', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+    /*font-size: 13pt;*/
+    /*color: #324E2D;*/
+    padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /*color: #254922;*/
+    font-family: 'Forum', "Helvetica Neue", Helvetica, Arial,  sans-serif;
+}
+
+header {
+    /*background: transparent url("images/header-bg.jpg") no-repeat center top;*/
+    min-height: 300px;
+    border-bottom: solid 1px darkred;
+    padding-top: 70px;
+}
+
+
+a {
+    /*color: #638E28;*/
+}
+a:hover {
+    /*color: #8FB952;*/
+}

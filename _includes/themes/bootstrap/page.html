@@ -1,9 +1,32 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-</div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% include header.html %}
+    <link href="{{ BASE_PATH }}/inner_page.css" rel="stylesheet">
+</head>
 
-<div class="row">
-  <div class="col-xs-12">
-      {{ content }}
-  </div>
-</div>
+<body>
+{% include main_menu.html %}
+<header class="splash">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
+                <a href="http://www.battery-yoga.ru/" title="Групповые и индивидуацльные занятия йогой. Йога терапия.">
+                    <img class="img-rounded" src="/images/battery_yoga_logo.png" title="Групповые и индивидуацльные занятия йогой. Йога терапия." alt="Логотип Battery Yoga">
+                </a>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <h2><i class="fa fa-mortar-board"></i> Battery Yoga</h2>
+                <h1>Групповые и индивидуацльные занятия йогой.</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<content class="container">
+    {{ content }}
+</content>
+{% include metrika.html %}
+{% include modal_contacts.html %}
+{% include footer.html %}
+</body>
+</html>

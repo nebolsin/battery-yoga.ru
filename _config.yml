@@ -11,12 +11,12 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap-3
-tagline: Site Tagline
+title : Групповые и индивидуальные занятия йогой.
+tagline: Групповые и индивидуальные занятия йогой. Йога Терапия.
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : Евгений Устименко
+  email : uuueeelll@gmail.com
+  github : UUUEEELLL
   twitter : username
   feedburner : feedname
 
