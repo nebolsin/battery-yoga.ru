@@ -14,14 +14,100 @@ h1,h2,h3,h4,h5,h6 {
 header {
     /*background: transparent url("images/header-bg.jpg") no-repeat center top;*/
     min-height: 300px;
-    border-bottom: solid 1px darkred;
-    padding-top: 70px;
+    padding-top: 57px;
 }
 
+header img {
+    margin-top: 11px;
+}
+
+header h2 {
+    color:#6B447C;
+    /*color:#551D66;*/
+    font-size: 33pt;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+header h2 i {
+    color: #551D66;
+}
+
+header h1 {
+    border-top: solid 1px #ED6ED7;
+    padding-top: 10px;
+    font-size: 24pt;
+    color: #9E5CB7;
+    margin-top: 22px;
+    line-height: 47px;
+}
+
+.my-nav-color {
+    background-color: transparent !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9D87C1", endColorstr="#502A68");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#9D87C1), to(#502A68));
+    background-image: -moz-linear-gradient(top, #9D87C1, #502A68);
+    background-image: -ms-linear-gradient(top, #9D87C1, #502A68);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9D87C1), color-stop(100%, #502A68));
+    background-image: -webkit-linear-gradient(top, #9D87C1, #502A68);
+    background-image: -o-linear-gradient(top, #9D87C1, #502A68);
+    background-image: linear-gradient(#9D87C1, #502A68);
+    border-bottom-color: #9F9DD1;
+    /*color: #fff !important;*/
+    text-shadow: 0 -1px 1px rgba(20, 33, 54, 0.75);
+    -webkit-font-smoothing: antialiased;
+
+}
 
 a {
     /*color: #638E28;*/
 }
 a:hover {
     /*color: #8FB952;*/
+}
+
+.no-margin {margin: 0;}
+.no-padding {padding: 0;}
+.no-border {border: 0;}
+.modal-lg {width: 680px;}
+/* Main page styles */
+#mainPageContent {
+    background-color: #f8f0b1;
+}
+
+#mainPageContent .left-col {
+    padding-top: 20px;
+    text-align: center;
+    color: #632C7B;
+}
+
+#mainPageContent .well {
+    min-height: 120px;
+    margin-top: 20px;
+    font-size: 13pt;
+    border-color:#CAAFE2;
+    background-color: #FFF;
+}
+
+#mainPageContent .tab-content {
+    min-height: 120px;
+    border-left: solid 1px #CAAFE2;
+    border-right: solid 1px #CAAFE2;
+    border-bottom: solid 1px #CAAFE2;
+    border-top: solid 1px #CAAFE2;
+    padding: 19px;
+    background-color: #FFF;
+    border-radius: 0 4px 4px 4px;
+}
+
+#mainPageContent .nav-tabs>li.active>a,
+#mainPageContent .nav-tabs>li.active>a:hover,
+#mainPageContent .nav-tabs>li.active>a:focus {
+    border-top-color: #CAAFE2;
+    border-right-color: #CAAFE2;
+    border-left-color: #CAAFE2;
+}
+
+#mainPageContent .tab-pane h4 {
+    margin-bottom: 22px;
 }
