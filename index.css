@@ -56,11 +56,15 @@ header h1 {
     /*color: #fff !important;*/
     text-shadow: 0 -1px 1px rgba(20, 33, 54, 0.75);
     -webkit-font-smoothing: antialiased;
+}
 
+.my-hall-photo {
+    width: 640px;
+    height: 480px;
 }
 
 a {
-    /*color: #638E28;*/
+    color: #654C9C;
 }
 a:hover {
     /*color: #8FB952;*/
@@ -70,6 +74,21 @@ a:hover {
 .no-padding {padding: 0;}
 .no-border {border: 0;}
 .modal-lg {width: 680px;}
+
+/* Top menu styles */
+#navbar-main.navbar-default .navbar-brand,
+#navbar-main.navbar-default .navbar-nav>li>a {
+    color: #E9BFED;
+}
+
+#navbar-main .navbar-brand:hover,
+#navbar-main .navbar-brand:focus,
+#navbar-main .navbar-nav>li>a:hover,
+#navbar-main .navbar-nav>li>a:focus {
+    color: #ffffff;
+}
+
+
 /* Main page styles */
 #mainPageContent {
     background-color: #f8f0b1;
@@ -96,7 +115,7 @@ a:hover {
     border-bottom: solid 1px #CAAFE2;
     border-top: solid 1px #CAAFE2;
     padding: 19px;
-    background-color: #FFF;
+    background-color: #F9F8F6;
     border-radius: 0 4px 4px 4px;
 }
 
@@ -106,6 +125,17 @@ a:hover {
     border-top-color: #CAAFE2;
     border-right-color: #CAAFE2;
     border-left-color: #CAAFE2;
+    background-color: #F9F8F6;
+    color: #6B447C;
+}
+
+#mainPageContent .nav>li>a {
+    color: #8375A3;
+}
+#mainPageContent .nav>li>a:hover,
+#mainPageContent .nav>li>a:focus {
+    background-color: #eee;
+    color: #74679B;
 }
 
 #mainPageContent .tab-pane h4 {
