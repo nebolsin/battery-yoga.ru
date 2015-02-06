@@ -18,12 +18,6 @@ mainMenuIndex: active
             <div class="col-lg-8 no-margin no-padding">
                 <ul class="nav nav-tabs no-border">
                     <li class="active">
-                        <a href="#bali-ubud" data-toggle="tab" class="lead no-margin">
-                            <span class="flag flag-icon flag-icon-id"></span> Индонезия<br>
-                            10/Дек/14 &ndash; 08/Фев/15
-                        </a>
-                    </li>
-                    <li>
                         <a href="#goa-siolim" data-toggle="tab" class="lead no-margin">
                             <span class="flag flag-icon flag-icon-in"></span> Индия<br>
                             12/Фев/15 &ndash; 10/Апр/15
@@ -31,56 +25,7 @@ mainMenuIndex: active
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade in active" id="bali-ubud">
-                        <br>
-
-                        <div class="btn-group btn-group-justified">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-map-marker"></i> Индонезия, Бали, Убуд
-                                </button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-phone"></i> +62 812 3689-54-66
-                                </button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-at"></i> info@battery-yoga.ru
-                                </button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="btn-group btn-group-justified">
-                            <div class="btn-group">
-                                <a type="button" href="https://www.google.com/maps/d/edit?mid=zDx8XjU8TeIM.k6Oh-8YjqCTs" target="_blank" class="btn btn-lg btn-default" >
-                                    <i class="fa fa-lg fa-bicycle"></i> <span class="lead">Карта проезда</span>
-                                </a>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default" data-target="#modalUbudHall" data-toggle="modal">
-                                    <i class="fa fa-lg fa-photo"></i> <span class="lead">Фото зала</span>
-                                </button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default" data-target="#modalTeacher" data-toggle="modal">
-                                    <i class="fa fa-lg fa-spin fa-empire"></i> <span class="lead">Учитель</span>
-                                </button>
-                            </div>
-                            <!--<div class="btn-group">-->
-                                <!--<button type="button" class="btn btn-lg btn-default" data-target="#modalUbudMap" data-toggle="modal">-->
-                                    <!--<i class="fa fa-money"></i> Стоимость-->
-                                <!--</button>-->
-                            <!--</div>-->
-
-                        </div>
-                        <br>
-                        <div class="text-center">
-                            <button class="btn btn-danger"><i class="fa fa-spin fa-spinner fa-lg"></i> ПРОИЗВОДИТСЯ НАБОР ГРУППЫ</button>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="goa-siolim">
+                    <div class="tab-pane fade in active" id="goa-siolim">
                         <br>
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
@@ -103,25 +48,19 @@ mainMenuIndex: active
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
                                 <a type="button" href="https://www.google.com/maps/d/edit?mid=zDx8XjU8TeIM.kDGy73nMIPlo" target="_blank" class="btn btn-lg btn-default" >
-                                    <i class="fa fa-lg fa-bicycle"></i> <span class="lead">Карта проезда</span>
+                                    <i class="fa fa-lg fa-bicycle text-info"></i> <span class="lead text-info">Карта проезда</span>
                                 </a>
                             </div>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-lg btn-default" data-target="#modalSiolimHall" data-toggle="modal">
-                                    <i class="fa fa-lg fa-photo"></i> <span class="lead">Фото зала</span>
+                                    <i class="fa fa-lg fa-photo text-info"></i> <span class="lead text-info">Фото зала</span>
                                 </button>
                             </div>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-lg btn-default" data-target="#modalTeacher" data-toggle="modal">
-                                    <i class="fa fa-lg fa-spin fa-empire"></i> <span class="lead">Учитель</span>
+                                    <i class="fa fa-lg fa-spin fa-empire text-info"></i> <span class="lead text-info">Учитель</span>
                                 </button>
                             </div>
-                            <!--<div class="btn-group">-->
-                            <!--<button type="button" class="btn btn-lg btn-default" data-target="#modalUbudMap" data-toggle="modal">-->
-                            <!--<i class="fa fa-money"></i> Стоимость-->
-                            <!--</button>-->
-                            <!--</div>-->
-
                         </div>
                     </div>
                 </div>
@@ -156,13 +95,54 @@ mainMenuIndex: active
                     в группе не менее 2-х недель по 3 зянятия в неделю.
                 </p>
 
-                <h3>Стоимость</h3>
-                <p>Стоимость группового занятия в Убуде будет определена при окончательном формировании группы.
-                    Ориентировочная цена занятия от <span class="text-muted">100 000Rs</span>
-                </p>
+                <br>
+                <h3 class="text-warning"><i class="fa fa-money"></i> Стоимость</h3>
+                <div class="panel panel-default">
+                    <table class="table table-bordered table-responsive table-striped">
+                        <thead>
+                        <tr>
+                            <th>Кол-во занятий</th>
+                            <th>Стоимость одного занятия, Rs</th>
+                            <th>Итоговая стоимость, Rs</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>500</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>450</td>
+                            <td>2700</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>400</td>
+                            <td>4800</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>350</td>
+                            <td>8400</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="panel-footer text-danger">
+                        Если есть желание серьезно заниматься, но бюджет не позволяет, пожалуйста, обратитесь к нам, обязательно найдем удобные условия!!!
+                    </div>
+                </div>
 
-                <h3>Расписание</h3>
-                <p>Расписание групповых занятий будет определено позже с учетом набранной группы.</p>
+                <br>
+                <h3 class="text-warning"><i class="fa fa-clock-o"></i> Расписание</h3>
+                <p class="lead">
+                    Вторник / Четверг / Суббота &ndash; в 8:00
+                </p>
+                <p>&ndash; длительность занятия минимум 2 часа</p>
+                <p>&ndash; убедительная просьба быть в зале не позже 7:55</p>
+
+
             </div>
         </div>
 
