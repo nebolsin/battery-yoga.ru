@@ -19,8 +19,9 @@ mainMenuIndex: active
                 <ul class="nav nav-tabs no-border">
                     <li class="active">
                         <a href="#goa-siolim" data-toggle="tab" class="lead no-margin">
-                            <span class="flag flag-icon flag-icon-in"></span> Индия<br>
-                            12/Фев/15 &ndash; 10/Апр/15
+                            <!--<span class="flag flag-icon flag-icon-in"></span> -->
+                            Сиолим, Гоа, Индия
+                            <h4>12/Фев/15 &ndash; 10/Апр/15</h4>
                         </a>
                     </li>
                 </ul>
@@ -29,18 +30,18 @@ mainMenuIndex: active
                         <br>
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-map-marker"></i> Индия, Гоа, Сиолим
-                                </button>
+                                <a href="#timeTable" class="btn btn-lg btn-default">
+                                    <i class="fa fa-lg fa-clock-o"></i> Расписание
+                                </a>
                             </div>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-phone"></i> +91 95-45-613772
-                                </button>
+                                <a href="#priceList" class="btn btn-lg btn-default">
+                                    <i class="fa fa-lg fa-money"></i> Стоимость
+                                </a>
                             </div>
                             <div class="btn-group">
-                                <button type="button" class="btn btn-lg btn-default disabled">
-                                    <i class="fa fa-at"></i> info@battery-yoga.ru
+                                <button type="button" class="btn btn-lg btn-default">
+                                    <i class="fa fa-lg fa-phone"></i> +91 95-45-613772
                                 </button>
                             </div>
                         </div>
@@ -95,8 +96,8 @@ mainMenuIndex: active
                     в группе не менее 2-х недель по 3 зянятия в неделю.
                 </p>
 
-                <br>
-                <h3 class="text-warning"><i class="fa fa-money"></i> Стоимость</h3>
+                <div id="priceList"></div>
+                <h3 class="text-warning"><i class="fa fa-lg fa-money"></i> Стоимость</h3>
                 <div class="panel panel-default">
                     <table class="table table-bordered table-responsive table-striped">
                         <thead>
@@ -134,8 +135,8 @@ mainMenuIndex: active
                     </div>
                 </div>
 
-                <br>
-                <h3 class="text-warning"><i class="fa fa-clock-o"></i> Расписание</h3>
+                <div id="timeTable"></div>
+                <h3 class="text-warning"><i class="fa fa-lg fa-clock-o"></i> Расписание</h3>
                 <p class="lead">
                     Вторник / Четверг / Суббота &ndash; в 8:00
                 </p>
