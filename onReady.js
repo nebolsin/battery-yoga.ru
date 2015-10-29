@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
     // Padding-top of icons in left col
-    $( '#mainPageContent div.row' ).each(function( index ) {
-        var rowH  = $( this ).innerHeight();
-        if ( rowH > 170 ){
-            rowH = (rowH - 140) / 2;
-            $( this ).find( ".left-col" ).css("padding-top", rowH+"px");
-        }
-    });
+    //$( '#mainPageContent div.row' ).each(function( index ) {
+    //    var rowH  = $( this ).innerHeight();
+    //    if ( rowH > 170 ){
+    //        rowH = (rowH - 140) / 2;
+    //        $( this ).find( ".left-col" ).css("padding-top", rowH+"px");
+    //    }
+    //});
 
     $('a[href="#timeTable"]').smoothScroll();
     $('a[href="#priceList"]').smoothScroll();
